@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js_eka</title>
+</head>
+<body>
+    <h1>Js_eka</h1>
+    <p>
+        Valitse laskutoimitus:<br>
+        <select name="toiminto" id="toiminto">
+            <option value="valitse">Valitse toiminto</option>
+            <option value="miinus">Vähennyslasku</option>
+            <option value="plus">Yhteenlasku</option>
+        </select>
+    </p>
+    <input type="text" name="luku1" id="luku1" placeholder="anna luku">
+    <br>
+    <input type="text" name="luku2" id="luku2" placeholder="anna toinen luku">
+    <br>
+
+    <button onclick="laske()">Laske</button>
+    
+    <p>Vastaus: <span id="vastaus"></span></p>
+    <script src="main.js"></script>
+</body>
+</html>
